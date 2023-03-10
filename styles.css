@@ -1,10 +1,12 @@
 /* styles.css */
 
 * {
-    width: 800px;
+    width: 500px;
     justify-content: center;
     align-self: auto;
     flex: column;
+    flex-wrap: wrap;
+    border: 15px yellow;
 }
 
 h1 {
@@ -18,9 +20,18 @@ img {
     height: auto;
     border: 15px;
     padding: 40px;
-    margin: 20px;
+    margin: 30px;
     justify-content: center;
 }
+
+.iframe {
+    width: 500px;
+    height: auto;
+    border: 15px yellow;
+    padding: 20px;
+    margin: 50px;
+    justify-content: center;
+} 
 
 div {
   color: antiquewhite;
