@@ -1,18 +1,51 @@
 /* styles.css */
 
+* {
+    width: 800px;
+    justify-content: center;
+    align-self: auto;
+    flex: column;
+}
+
+h1 {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 15px;
+    padding: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
 div {
   color: antiquewhite;
   background-color:rgb(80, 76, 29);
+  
 }
 
 p {
     color:whitesmoke;
     background-color:rgb(80, 76, 29);
+    width: 500px;
+    border: 15px solid green;
+    padding: 40px;
+    margin: 20px;
+    justify-content: center;
 }
 
 ol ul {
     color:antiquewhite;
     background-color:rgb(80, 76, 29);
+    width: 400px;
+    border: 20px solid green;
+    padding: 50px;
+    margin: 25px;
+    justify-content: center;
 }
 
 a:hover {
