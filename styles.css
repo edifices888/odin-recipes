@@ -24,6 +24,24 @@ img {
     justify-content: center;
 }
 
+ol {
+    width: 700px;
+    justify-content: flex-start;
+}
+
+ul {
+    width: 700px;
+    justify-content: flex-start;
+}
+
+h2 {
+
+}
+
+h3 [
+    
+]
+
 div {
   color: antiquewhite;
   background-color:rgb(80, 76, 29);
