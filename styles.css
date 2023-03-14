@@ -27,27 +27,46 @@ h1 {
     text-align: center;
 }
 
-
-div.container {
+h3 {
     text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
     display: flex;
-    justify-content: center
-  }
+    justify-content: center;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+div.youtube {
+    display: flex;
+    justify-content: center;
+}
+
   
   ul.myUL {   
-    display: inline-block;
-    text-align: left;
+    width: 700px;
+    display: table;
+    margin: 0 auto;
   }
 
   ol.myOL {
-    display: inline-block;
-    text-align: left;
+    width: 700px;
+    display: table;
+    margin: 0 auto;
   }
 
-li {
-    margin-left: auto;
-    margin-right: auto;
-}
+  div.container {
+    display: table;
+    margin: 0 auto;
+  }
 
 a:hover {
     color: black;
