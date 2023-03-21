@@ -28,11 +28,6 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -59,12 +54,23 @@ html {
     font-family: "Lucinda Sans", sans-serif;
 }
 
-img {
+.image {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50%;
     margin: 0 auto;
-    width: auto;
-    display: block;
+    width: 400px;
+    flex: 0 0 0;
+  }
+
+  .imagetext {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .paragraph {
+    flex: 1;
+    margin-right: 1em;
+    margin-left: 2em;
   }
 
 h2 {
